@@ -5,7 +5,9 @@ interface Accounts{
     void benifits();
 }  
 class SBI implements Bank,Accounts{  
-    public float rateOfInterest(){return 9.15f;} 
+    public float rateOfInterest(){
+        return 9.15f;
+    } 
     public void benifits()
     {
         System.out.println("SBI provides best rate of intrest");
