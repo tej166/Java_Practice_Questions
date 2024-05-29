@@ -1,11 +1,11 @@
-interface human{
+interface Human{
     void walk();
 }
 interface Animal{
     void crawl();
 }
 
-class adimanav implements human, Animal{
+class AdiManav implements Human, Animal{
     public void walk(){
         System.out.println("I can walk");
     }
@@ -18,9 +18,9 @@ class adimanav implements human, Animal{
 }
 public class Ques4 {
     public static void main(String[] args) {
-        adimanav a1 = new adimanav();
-        a1.walk();
-        a1.crawl();
-        a1.proof();
+        AdiManav adiManav = new AdiManav();
+        adiManav.walk();
+        adiManav.crawl();
+        adiManav.proof();
     }
 }
