@@ -2,10 +2,12 @@ interface Shape{
     void draw();  
 }  
 class Rectangle implements Shape{  
+    @Override
     public void draw()
         {System.out.println("drawing rectangle");}  
 }  
 class Circle implements Shape{  
+    @Override
     public void draw()
         {System.out.println("drawing circle");}  
 }

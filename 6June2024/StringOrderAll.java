@@ -5,7 +5,7 @@ import java.util.List;
 
 public class StringOrderAll {
     public static void main(String[] args) {
-        String str = "MyName2811ROnak";
+        String str = "MyName2811TEjal";
         ArrayList<Character> sortedVowels= new ArrayList<>(sortVowels(str)); 
         // System.out.println("String with sorted vowels: " + sortedVowels);
 
