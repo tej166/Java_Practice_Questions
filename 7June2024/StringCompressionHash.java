@@ -15,18 +15,18 @@ public class StringCompressionHash {
                 map.put(c, count+1); 
             }
         }
-        String output = "";
+        String output = " ";
         for(char c: map.keySet()) {
             int temp = map.get(c);
             if(temp == 1) {
                 output+= c;
             }
             else {
-               output += c+""+map.get(c); 
+               output += c+" "+map.get(c); 
             }  
         }
         chars = output.toCharArray();
-     
+
         return chars.length;
     }
 }

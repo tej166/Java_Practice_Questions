@@ -9,10 +9,8 @@ public class reverseString {
             chars[i]=chars[j];
             chars[j]=temp[i];
             j--;
-
         }
         String reversed = String.valueOf(chars);
         System.out.println("reversed Array: " + reversed);
-
     }
 }
